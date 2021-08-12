@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  margin: -3px;
+}
+
+.panel {
+  position: relative;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex: 1;
+  margin: 3px;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+
+.dmitrievskaya-tower {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/NN_22-07-2021_13.jpg/1280px-NN_22-07-2021_13.jpg');
+}
+
+.alexander-nevsky-cathedral {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Alexander_Nevsky_Cathedral_and_Nizhny_Novgorod_stadium.jpg/1280px-Alexander_Nevsky_Cathedral_and_Nizhny_Novgorod_stadium.jpg');
+}
+
+.chkalov-stairs {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/NN_Chkalov_Stairs_08-2016_img3.jpg/1280px-NN_Chkalov_Stairs_08-2016_img3.jpg');
+}
+
+.nizhny-novgorod-fair {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/NN_Trade_Fair_05-2019_02_%28cropped%29.jpg/1280px-NN_Trade_Fair_05-2019_02_%28cropped%29.jpg');
+}
+
+.panel h2 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 30px;
+  font-size: 2em;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.panel.active {
+  flex: 10;
+  cursor: default;
+}
+
+.panel.active h2 {
+  opacity: 1;
+  transition: opacity 1s ease 0.5s;
+}
+
+@media (max-width: 640px) {
+  .container {
+    flex-direction: column;
+  }
+}
