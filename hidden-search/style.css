@@ -1,0 +1,54 @@
+:root {
+  --side-size: 60px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+  background: linear-gradient(to bottom right, teal, darkcyan);
+}
+
+.search {
+  position: relative;
+  height: var(--side-size);
+}
+
+.search .input {
+  font-size: 24px;
+  padding: 18px;
+}
+
+.search .button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.search .input,
+.search .button {
+  width: var(--side-size);
+  height: var(--side-size);
+  background-color: white;
+  border: 0;
+  outline: none;
+  transition: 0.5s ease;
+}
+
+.search.active .input {
+  width: 240px;
+}
+
+.search.active .button {
+  left: 240px;
+}
