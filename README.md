@@ -8,6 +8,7 @@ All projects are deployed in `gh-pages` branch.
 * Expanding Cards ([demo](https://zlobnikov.github.io/50-Projects/expanding-cards/) | [code](https://github.com/zlobnikov/50-Projects/tree/gh-pages/expanding-cards))  
 * Progress Steps ([demo](https://zlobnikov.github.io/50-Projects/progress-steps/) | [code](https://github.com/zlobnikov/50-Projects/tree/gh-pages/progress-steps))  
 * Hidden Search Widget ([demo](https://zlobnikov.github.io/50-Projects/hidden-search/) | [code](https://github.com/zlobnikov/50-Projects/tree/gh-pages/hidden-search))  
+* Rotating Navigation Animation ([demo](https://zlobnikov.github.io/50-Projects/rotating-navigation-animation/) | [code](https://github.com/zlobnikov/50-Projects/tree/gh-pages/rotating-navigation-animation))  
 
 Sources of projects ideas:  
 https://50projects50days.com/  
