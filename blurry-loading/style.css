@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Roboto, Arial, sans-serif;
+  overflow: hidden;
+}
+
+.background {
+  position: absolute;
+  left: -100px;
+  top: -100px;
+  width: calc(100vw + 200px);
+  height: calc(100vh + 200px);
+  background: url('image.jpg') no-repeat center/cover;
+  z-index: -1;
+  filter: blur(35px);
+}
+
+.loading {
+  font-size: 120px;
+  color: white;
+}
