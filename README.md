@@ -9,6 +9,7 @@ All projects are deployed in `gh-pages` branch.
 * Progress Steps ([demo](https://zlobnikov.github.io/50-Projects/progress-steps/) | [code](https://github.com/zlobnikov/50-Projects/tree/gh-pages/progress-steps))  
 * Hidden Search Widget ([demo](https://zlobnikov.github.io/50-Projects/hidden-search/) | [code](https://github.com/zlobnikov/50-Projects/tree/gh-pages/hidden-search))  
 * Rotating Navigation Animation ([demo](https://zlobnikov.github.io/50-Projects/rotating-navigation-animation/) | [code](https://github.com/zlobnikov/50-Projects/tree/gh-pages/rotating-navigation-animation))  
+* Blurry Loading ([demo](https://zlobnikov.github.io/50-Projects/blurry-loading/) | [code](https://github.com/zlobnikov/50-Projects/tree/gh-pages/blurry-loading))  
 
 Sources of projects ideas:  
 https://50projects50days.com/  
